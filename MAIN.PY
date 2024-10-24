@@ -1,7 +1,7 @@
 import qrcode
 
 # Data for the QR code
-data = "https://facebook.com"
+data = (input("ENTER YOUR LINK & URL"))
 
 # Create a QR code instance
 qr = qrcode.QRCode(
